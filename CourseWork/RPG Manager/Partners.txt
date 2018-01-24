@@ -1,0 +1,7 @@
+Cody Riniker - Created Queries
+Ethan Hailey - Did most of the server work
+Joshua Humphreys - Create the sql tables and data
+Dougless Garret - Created Queries
+James Nelson - Created Queries
+
+-This is very basic breakdown of how the work on the project was split up between all the members.
