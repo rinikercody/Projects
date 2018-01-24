@@ -1,0 +1,4 @@
+I helped create the queires and report part of the application.
+
+Most of the server work was done by Ethan Haily.
+James Nelson made the views.
