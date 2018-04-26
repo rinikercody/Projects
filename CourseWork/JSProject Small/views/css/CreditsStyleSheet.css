@@ -1,0 +1,32 @@
+body{
+	text-align: center;
+}
+
+h1{
+	color: gray;
+	font-size: 48px;
+	background-color: purple;
+}
+
+#main_menu a{
+	text-decoration: none;
+	color: White;
+	text-shadow: 2px 2px 5px blue;
+}
+
+#main_menu{
+	font-size: 40px;
+	list-style-type: none;
+	text-align: center;
+	background-color: DarkViolet;
+	/*background-color: LightGreen;*/
+	border-top: solid;
+	border-bottom: solid;
+	border-width: 1px;
+}
+
+#main_menu li{
+	display: inline;
+	margin-left: 10px;
+	margin-right: 20px;
+}

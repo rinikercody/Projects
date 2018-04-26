@@ -1,0 +1,27 @@
+body{
+	background-color: Beige;
+}
+
+div.container{
+	vertical-align: middle;
+	text-align: center;
+	display: inline
+}
+
+h1{
+	font-size: 40px;
+	color: White;
+	text-shadow: 2px 2px 5px blue;
+	text-align: center;
+	/*background-color: lightgreen;*/
+	background-color: DarkViolet;
+}
+
+form{
+	padding: 30px;
+}
+
+input{
+	font-size:24px;
+}
+
