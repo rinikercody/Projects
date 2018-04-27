@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "jsproject",
+  "version": "1.0.0",
+  "description": "CIS 526 Project",
+  "main": "server.js",
+  "author": "Cody Riniker",
+  "license": "ISC",
+  "dependencies": {
+    "sqlite3": "^4.0.0"
+  }
+}

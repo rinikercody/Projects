@@ -1,0 +1,107 @@
+#main_menu{
+	font-size: 40px;
+	list-style-type: none;
+	text-align: center;
+	background-color: DarkViolet;
+	/*background-color: LightGreen;*/
+	border-top: solid;
+	border-bottom: solid;
+	border-width: 1px;
+}
+
+#main_menu li{
+	display: inline;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+#mts ul{
+	
+}
+
+#mts li{
+	/*color: Blue;*/
+	color: gray;
+	font-size: 40px;
+}
+
+#evo-list li{
+	display: block;
+}
+
+#evo-list text{
+	padding: 10px;
+}
+
+#team-list li{
+	display: block;
+}
+
+#team-list text{
+	padding: 10px;
+}
+
+#team-totals text{
+	text-align: center;
+	display:block;
+	font-size:40px;
+}
+
+
+#add-team-form{
+	text-align: center;
+}
+
+#alert{
+	text-align: center;
+	color: Red;
+}
+
+#alert h1{
+	font-size:48px;
+	color: Red;
+}
+
+#alert a{
+	font-size:30px;
+	color : blue;
+	text-shadow: 2px 2px 5px white;
+	text-decoration: underline;
+	padding: 30px;
+	/*Will add to later*/
+}
+
+#alert img{
+	width: 500px
+}
+
+a{
+	text-decoration: none;
+	color: White;
+	text-shadow: 2px 2px 5px blue;
+}
+
+body{
+	background-color: Beige
+}
+
+h1{
+	text-align: center;
+	font-size: 48px;
+	color: dimgray;
+	background-color: Plum;
+}
+
+li{
+	display: inline;
+}
+
+ul{
+	list-style-type: none;
+	text-align: center;
+}
+
+img{
+	height: 150px;
+	width: 150px;
+}
