@@ -1,0 +1,49 @@
+#header{
+	/*background-color: MediumSpringGreen;*/ /*might just remove */
+	height: 100px;
+	padding-bottom: 0px;
+}
+
+h1{
+	/*color: Tomato;*/
+	color: gray;
+	font-size: 85px;
+	text-align: center;
+	background-color: lightgreen;
+	text-shadow: 2px 2px 5px white;
+}
+
+a{
+	text-decoration: none;
+	/*color: SkyBlue;*/
+	color: White;
+}
+
+body{
+	background-color: WhiteSmoke;
+	margin: 0;
+}
+
+li{
+	margin-left: 10px;
+	display: inline;
+	margin-right: 20px;
+	text-shadow: 2px 2px 5px blue;
+}
+
+#main_menu{
+	font-size: 40px;
+	list-style-type: none;
+	text-align: center;
+	/*background-color: LightGreen;*/
+	background-color: DarkViolet;
+	border-top: solid;
+	border-bottom: solid;
+	border-width: 1px;
+}
+
+img{
+	text-align: center;
+	height: 400px;
+	width: 100%;
+}
