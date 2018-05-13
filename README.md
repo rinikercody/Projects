@@ -1,2 +1,2 @@
 # Projects
-Past course work and home programs
+This reposisitory contains programming projects I have worked on.
