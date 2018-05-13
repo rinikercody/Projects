@@ -1,0 +1,66 @@
+body{
+	background: url("color-squares.jpg");
+	background-color: skyblue;
+	font-family: arial;
+	margin: 0;
+}
+
+#main_menu {
+	text-align: center;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+    background: RoyalBlue;
+    padding: 20px; 
+    width: 100%;
+    height: 50px;
+    top: 0;
+    z-index: 100; 
+}
+
+#main_menu li{
+	display: inline;
+	color: yellow;
+	font-size: 24px;
+	padding-right: 30px;
+	height: 50px;
+}
+
+#main_menu a{
+	text-shadow: 2px 2px purple;
+	color: white;
+	text-decoration: none;
+}
+
+#main_menu a:hover{
+	color: red;
+}
+
+h1{
+    color: blue;
+    font-size: 50px;
+	font-family: Forte;
+	text-shadow: 3px 3px orange;
+	text-align: center;
+}
+
+h2{
+	color: blue;
+	text-shadow: 3px 3px orange;
+	font-size: 24px;
+}
+
+#wrapper{
+	width: 960px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.box_section{
+	text-align: center;
+	border-radius: 50px;
+	width: 960px;
+	margin: 0 auto;
+	background-color: pink;
+	box-shadow: 5px 5px yellow;
+}
+ 
