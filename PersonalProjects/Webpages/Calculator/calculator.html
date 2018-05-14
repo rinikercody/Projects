@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Calculator</title>
+			<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+			<script type="text/javascript" src="scripts.js" async></script>
+		</head>
+		
+		<body>
+			<form name ='main-form'>
+				<text>&nbsp Num1</text>
+				<textarea name='box1' id='box1'></textarea>
+				<br/>
+				<text>&nbsp Num2</text>
+				<textarea name='box2' id='box2'></textarea>
+				<br/>
+				<button type='button' onclick='executeOperation("addition")'>Add</button>
+				<button type='button' onclick='executeOperation("subtraction")'>Subtract</button>
+				<button type='button' onclick='executeOperation("multiplication")'>Multiply</button>
+				<button type='button' onclick='executeOperation("division")'>Divide</button>
+				<br/>
+				<h1 id='answer'>0</h1>
+			</form>
+		</body>
+	</html>
