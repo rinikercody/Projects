@@ -1,0 +1,10 @@
+C:\Users\rinik\Desktop\MoneyManger\MoneyManger\bin\Debug\MoneyManger.exe.config
+C:\Users\rinik\Desktop\MoneyManger\MoneyManger\bin\Debug\MoneyManger.exe
+C:\Users\rinik\Desktop\MoneyManger\MoneyManger\bin\Debug\MoneyManger.pdb
+C:\Users\rinik\Desktop\MoneyManger\MoneyManger\obj\Debug\MoneyManager.csprojResolveAssemblyReference.cache
+C:\Users\rinik\Desktop\MoneyManger\MoneyManger\obj\Debug\MoneyManager.Form1.resources
+C:\Users\rinik\Desktop\MoneyManger\MoneyManger\obj\Debug\MoneyManger.Properties.Resources.resources
+C:\Users\rinik\Desktop\MoneyManger\MoneyManger\obj\Debug\MoneyManager.csproj.GenerateResource.cache
+C:\Users\rinik\Desktop\MoneyManger\MoneyManger\obj\Debug\MoneyManager.csproj.CoreCompileInputs.cache
+C:\Users\rinik\Desktop\MoneyManger\MoneyManger\obj\Debug\MoneyManger.exe
+C:\Users\rinik\Desktop\MoneyManger\MoneyManger\obj\Debug\MoneyManger.pdb
