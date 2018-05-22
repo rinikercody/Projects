@@ -1,0 +1,7 @@
+C:\Users\rinik\Desktop\Class Examples\Class Examples\obj\Debug\Class Examples.csprojResolveAssemblyReference.cache
+C:\Users\rinik\Desktop\Class Examples\Class Examples\obj\Debug\Class Examples.csproj.CoreCompileInputs.cache
+C:\Users\rinik\Desktop\Class Examples\Class Examples\bin\Debug\Class Examples.exe.config
+C:\Users\rinik\Desktop\Class Examples\Class Examples\bin\Debug\Class Examples.exe
+C:\Users\rinik\Desktop\Class Examples\Class Examples\bin\Debug\Class Examples.pdb
+C:\Users\rinik\Desktop\Class Examples\Class Examples\obj\Debug\Class Examples.exe
+C:\Users\rinik\Desktop\Class Examples\Class Examples\obj\Debug\Class Examples.pdb
