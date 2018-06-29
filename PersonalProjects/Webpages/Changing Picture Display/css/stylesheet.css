@@ -1,0 +1,48 @@
+body{
+	padding: 0px;
+	margin: 0;
+	background-color: Thistle;
+	font-family: Arial;
+}
+
+footer{
+	background-color: SpringGreen;
+	font-family: News Gothic MT;
+	text-align: center;
+}
+
+.heading{
+	background-color: MediumPurple;
+	color: White;
+	text-align: center;
+}
+
+#pic-box{
+	width: 500px;
+	height: 500px;
+	box-shadow: 5px 5px 5px SteelBlue;
+	display: block;
+	margin-left: auto; /*This is for centering*/
+    margin-right: auto; /*This is for centering*/
+}
+
+#text-box{
+	font-size: 48px;
+	font-family: Forte;
+	color: gold;
+	text-align: center;
+	display: block;
+}
+
+#small-pics-container{
+	text-align: center;
+}
+
+.small-pics{
+	width: 150px;
+	height: 100px;
+}
+
+.small-pics:hover{
+	opacity: 0.7;
+}
