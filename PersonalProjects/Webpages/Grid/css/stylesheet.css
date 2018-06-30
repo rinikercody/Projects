@@ -1,0 +1,50 @@
+*{
+	box-sizing: border-box;
+}
+
+.row{
+	margin-bottom: 30px;
+}
+
+.col{
+	height: 200px;
+	display: inline-block;
+	margin-left: 30px;
+	color: white;
+	font-family: Arial;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 200px; /* For centering text */
+	border-radius: 50px;
+}
+
+#col1{
+    background-color: Red;
+	width: 25%;
+}
+
+#col1:hover{
+	background-color: Indigo;
+}
+
+#col2{
+	background-color: Green;
+	width: 40%
+}
+
+#col2:hover{
+	background-color: Indigo;
+}
+
+#col3{
+	background-color: Blue;
+	width: 25%
+}
+
+#col3:hover{
+	background-color: Indigo;
+}
+
+footer{
+	background-color: GhostWhite;
+}
