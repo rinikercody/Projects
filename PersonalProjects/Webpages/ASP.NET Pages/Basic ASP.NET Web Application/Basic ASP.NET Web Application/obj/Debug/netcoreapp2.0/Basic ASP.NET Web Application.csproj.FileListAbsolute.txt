@@ -1,0 +1,11 @@
+C:\Users\rinik\Desktop\Basic ASP.NET Web Application\Basic ASP.NET Web Application\bin\Debug\netcoreapp2.0\Basic ASP.NET Web Application.deps.json
+C:\Users\rinik\Desktop\Basic ASP.NET Web Application\Basic ASP.NET Web Application\bin\Debug\netcoreapp2.0\Basic ASP.NET Web Application.runtimeconfig.json
+C:\Users\rinik\Desktop\Basic ASP.NET Web Application\Basic ASP.NET Web Application\bin\Debug\netcoreapp2.0\Basic ASP.NET Web Application.runtimeconfig.dev.json
+C:\Users\rinik\Desktop\Basic ASP.NET Web Application\Basic ASP.NET Web Application\bin\Debug\netcoreapp2.0\Basic ASP.NET Web Application.dll
+C:\Users\rinik\Desktop\Basic ASP.NET Web Application\Basic ASP.NET Web Application\bin\Debug\netcoreapp2.0\Basic ASP.NET Web Application.pdb
+C:\Users\rinik\Desktop\Basic ASP.NET Web Application\Basic ASP.NET Web Application\obj\Debug\netcoreapp2.0\Basic ASP.NET Web Application.csprojResolveAssemblyReference.cache
+C:\Users\rinik\Desktop\Basic ASP.NET Web Application\Basic ASP.NET Web Application\obj\Debug\netcoreapp2.0\Basic ASP.NET Web Application.csproj.CoreCompileInputs.cache
+C:\Users\rinik\Desktop\Basic ASP.NET Web Application\Basic ASP.NET Web Application\obj\Debug\netcoreapp2.0\Basic ASP.NET Web Application.AssemblyInfoInputs.cache
+C:\Users\rinik\Desktop\Basic ASP.NET Web Application\Basic ASP.NET Web Application\obj\Debug\netcoreapp2.0\Basic ASP.NET Web Application.AssemblyInfo.cs
+C:\Users\rinik\Desktop\Basic ASP.NET Web Application\Basic ASP.NET Web Application\obj\Debug\netcoreapp2.0\Basic ASP.NET Web Application.dll
+C:\Users\rinik\Desktop\Basic ASP.NET Web Application\Basic ASP.NET Web Application\obj\Debug\netcoreapp2.0\Basic ASP.NET Web Application.pdb
