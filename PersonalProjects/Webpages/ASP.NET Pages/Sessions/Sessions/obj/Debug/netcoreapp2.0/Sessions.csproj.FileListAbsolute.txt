@@ -1,0 +1,11 @@
+C:\Users\rinik\Desktop\Sessions\Sessions\bin\Debug\netcoreapp2.0\Sessions.deps.json
+C:\Users\rinik\Desktop\Sessions\Sessions\bin\Debug\netcoreapp2.0\Sessions.runtimeconfig.json
+C:\Users\rinik\Desktop\Sessions\Sessions\bin\Debug\netcoreapp2.0\Sessions.runtimeconfig.dev.json
+C:\Users\rinik\Desktop\Sessions\Sessions\bin\Debug\netcoreapp2.0\Sessions.dll
+C:\Users\rinik\Desktop\Sessions\Sessions\obj\Debug\netcoreapp2.0\Sessions.csprojResolveAssemblyReference.cache
+C:\Users\rinik\Desktop\Sessions\Sessions\obj\Debug\netcoreapp2.0\Sessions.csproj.CoreCompileInputs.cache
+C:\Users\rinik\Desktop\Sessions\Sessions\obj\Debug\netcoreapp2.0\Sessions.AssemblyInfoInputs.cache
+C:\Users\rinik\Desktop\Sessions\Sessions\obj\Debug\netcoreapp2.0\Sessions.AssemblyInfo.cs
+C:\Users\rinik\Desktop\Sessions\Sessions\bin\Debug\netcoreapp2.0\Sessions.pdb
+C:\Users\rinik\Desktop\Sessions\Sessions\obj\Debug\netcoreapp2.0\Sessions.dll
+C:\Users\rinik\Desktop\Sessions\Sessions\obj\Debug\netcoreapp2.0\Sessions.pdb
