@@ -1,0 +1,75 @@
+body{
+	background-color: Beige;
+}
+
+img{
+	height: 100px;
+	width: 100px;
+}
+
+h1{
+	font-size: 42px;
+    color: dimgray;
+}
+
+#main_menu{
+	font-size: 40px;
+	list-style-type: none;
+	text-align: center;
+	/*background-color: LightGreen;*/
+	background-color: DarkViolet; 
+	border-top: solid;
+	border-bottom: solid;
+	border-width: 1px;
+}
+
+#main_menu li{
+	margin-left: 10px;
+	display: inline;
+	margin-right: 20px;
+	text-shadow: 2px 2px 5px blue;
+}
+
+#main_menu a{
+	text-decoration: none;
+	/*color: SkyBlue;*/
+	color: White;
+}
+
+#main_menu a:hover{
+	color: skyblue;
+}
+
+.heading_text{
+	text-align: center;
+}
+
+.row{
+	display: inline;
+}
+
+.col{
+	display: inline-block;
+	width: 120px;
+}
+
+.colh{
+	display: inline-block;
+	width: 140px;
+}	
+#wrapper{
+	width: 900px;
+	margin: 0 auto;
+	height: 100%;
+	font-size: 20px;
+}
+
+/* for future feature */
+#numberbox{
+	position: fixed;
+	top: 0;
+	background-color: dimgray;
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+}

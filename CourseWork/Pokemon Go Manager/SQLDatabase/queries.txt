@@ -1,0 +1,46 @@
+DROP TABLE teams;
+DROP TABLE evos;
+DROP TABLE users;
+DROP TABLE user_teams;
+
+CREATE TABLE users(
+username varchar(30) primary key,
+password varchar(30)
+);
+
+CREATE TABLE user_teams(
+user varchar(30),
+team1 varchar(30),
+team2 varchar(30),
+team3 varchar(30),
+team4 varchar(30),
+team5 varchar(30),
+team6 varchar(30),
+team7 varchar(30),
+team8 varchar(30),
+team9 varchar(30)
+);
+
+CREATE TABLE teams(
+username varchar(30),
+team_name varchar(30),
+poke1 int,
+poke2 int,
+poke3 int,
+poke4 int,
+poke5 int,
+poke6 int
+);
+
+CREATE TABLE evos(
+username varchar(30),
+poke1 int,
+poke2 int,
+poke3 int,
+poke4 int,
+poke5 int,
+poke6 int,
+poke7 int,
+poke8 int,
+poke9 int
+);

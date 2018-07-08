@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
+  </head>
+  
+  <!--This script function for the drop down menu came from W3schools.com
+  <!--https://www.w3schools.com/howto/howto_css_dropdown.asp-->
+  <script type="text/javascript">
+		/* When the user clicks on the button, 
+		toggle between hiding and showing the dropdown content */
+		function myFunction() {
+			document.getElementById("myDropdown").classList.toggle("show");
+		}
+		// Close the dropdown menu if the user clicks outside of it
+		window.onclick = function(event) {
+		if (!event.target.matches('.dropbtn')) {
+
+		var dropdowns = document.getElementsByClassName("dropdown-content");
+		var i;
+		for (i = 0; i < dropdowns.length; i++) {
+		  var openDropdown = dropdowns[i];
+		  if (openDropdown.classList.contains('show')) {
+			openDropdown.classList.remove('show');
+		  }
+		}
+	  }
+	}
+	
+	function showDiv() {
+   document.getElementById('welcomeDiv').style.display = "block";
+}
+  </script>
+  
+  
+  <body>
+   
+    <div id ='header'>
+		<h1><i>Pokemon GO Manager</i></h1>
+	</div>
+	<ul id='main_menu'>
+		<li><a href="PokemonList">Pokemon</a></li> <!-- might add .html-->
+		<li><a href="ManageTeams">Teams</a></li>
+		<li><a href="ManageEvolutions">Evolutions</a></li>
+		
+		<li>
+		<!--Also from W3schools for dropdown button-->
+		<!--https://www.w3schools.com/howto/howto_css_dropdown.asp-->
+		<div class="dropdown">
+		<button onclick="myFunction()" class="dropbtn">Log in</button>
+			<div id="myDropdown" class="dropdown-content">
+				<a href="LogInPage">Log in or Sign up</a>
+				<a href="LogOut">Log out</a>
+			</div>
+	</div>
+		</li>
+		<li><a href="Credits">Credits</a></li>
+	</ul>
+	<img src='images/titlepic.jpg'>
+  </body>
+</html>
