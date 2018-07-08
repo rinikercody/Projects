@@ -9,7 +9,7 @@ img{
 
 h1{
 	font-size: 42px;
-    color: gray;
+    color: dimgray;
 }
 
 #main_menu{
@@ -36,6 +36,10 @@ h1{
 	color: White;
 }
 
+#main_menu a:hover{
+	color: skyblue;
+}
+
 .heading_text{
 	text-align: center;
 }
@@ -58,4 +62,14 @@ h1{
 	margin: 0 auto;
 	height: 100%;
 	font-size: 20px;
+}
+
+/* for future feature */
+#numberbox{
+	position: fixed;
+	top: 0;
+	background-color: dimgray;
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
 }

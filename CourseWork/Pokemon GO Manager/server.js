@@ -12,10 +12,6 @@ var ic = require('./InputCleaner');
 
 const PORT = 3000; //The port the application runs on
 
-/*
-+TEST IN CHROME
-*/
-
 //Connect to the SQlite database
 db.connectToDatabase(function(err,data){
 	console.log(data);
@@ -104,7 +100,12 @@ function handleRequest(req,res){
 					});
 					return;
 				}
-				else if(command === 'AE'){//Add Evolution Member 
+				else if(command === 'AE'){//Add Evolution Member
+					if(main_team === null || main_user === 'NOUSER')
+					{
+						res.writeHeader(200, {"Content-Type": "text/html"});
+						serveFile("views/NoUserAlert.html",res);
+					}
 					var poke_num = post.info.substring(2,5); //3 digit Pokemon number.
 					db.updateEvos(main_user,poke_num,function(err,data){
 						if(data == -1){
@@ -140,16 +141,13 @@ function handleRequest(req,res){
 					var slot = post.info.substring(2,3); //Location in table
 					var team = post.info.substring(3); //Name of team
 					if(main_team === team) setCookie(main_user,"NOTEAM",res);
-					db.removeTeam(main_user,team);
-					db.removeUserTeams(main_user,slot);
-					
-					//Dosen't update rite after delete, have to refrese
-					
-					db.getUserTeams(main_user,function(err,data){
-						//res.end(vm.makeTeamSelectForm(data));
-						serveFile("views/index.html",res);
+					db.removeTeam(main_user,team,function(err,data){
+						db.removeUserTeams(main_user,slot,function(err2,data2){
+							db.getUserTeams(main_user,function(err3,data3){
+								res.end(vm.makeTeamSelectForm(data3));
+							});
+						});
 					});
-					return;
 				}
 				else{
 					//This should be unreachable but, if anything happens it will just go back to main menu.
@@ -164,7 +162,7 @@ function handleRequest(req,res){
 						res.end(vm.loginErrorForm(-3));
 						return;
 					}
-					var encrpyted_password = encryption.encrypt(pwd); //Encrypt Password
+					var encrpyted_password = encryption.encipher(pwd); //Encrypt Password
 					db.addUser(newuser,encrpyted_password,function(err,data){
 						if(data == 1){
 							setCookie(newuser,"NOTEAM",res);
@@ -181,7 +179,7 @@ function handleRequest(req,res){
 					//Encrypt and check user
 					var username = ic.clean(post.username);
 					var pwd = ic.clean(post.pwd);
-					var encrpyted_password = encryption.encrypt(pwd);
+					var encrpyted_password = encryption.encipher(pwd);
 					db.checkUser(username, encrpyted_password, function(err,data){
 						if(data == 1){
 							setCookie(username,"NOTEAM",res);

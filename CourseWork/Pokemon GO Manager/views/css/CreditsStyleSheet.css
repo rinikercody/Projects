@@ -3,9 +3,10 @@ body{
 }
 
 h1{
-	color: gray;
+	color: dimgray;
 	font-size: 48px;
-	background-color: purple;
+	background-color: plum;
+	font-family: arial
 }
 
 #main_menu a{
@@ -29,4 +30,8 @@ h1{
 	display: inline;
 	margin-left: 10px;
 	margin-right: 20px;
+}
+
+#credits a{
+	font-size: 24px;
 }

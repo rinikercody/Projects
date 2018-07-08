@@ -154,11 +154,16 @@ function makeEvoForm(info,poke_info){
       for(var i = 0; i < info.length; i++){
 		var poke = info[i].toString().split(':')[1];
 		if(poke != 0){
-			html += "      <li><img src='Pokemon/" + poke + ".png'/>"
-			html += "       <text>"+ poke_info[poke].split(',')[0] + "," + poke_info[poke].split(',')[3]  + "</text>"
 			var str = "proceed('RE" + (i+1) + "');"
 			html += "       <button type='button' onclick=" + str + ">Remove</button>"
+			html += "      <li><img src='Pokemon/" + poke + ".png'/>"
+			var evolution = Number(poke)+1;
+			html += "       <text>"+ poke_info[poke].split(',')[0];
+			html += " evolves into " + poke_info[evolution].split(',')[0] + "</text>";
+			html += "      <li><img src='Pokemon/" + evolution + ".png'/>"
+			html += "<text> with " + poke_info[poke].split(',')[3] + "candies</text>";
 			html += "      </li>"
+			html += "<br></br>"
 		}
       }
 	  html += "     </ul>"

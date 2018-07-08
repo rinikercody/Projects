@@ -1,4 +1,4 @@
-<!doctype>
+<!DOCTYPE html>
  <script>
     function proceed(info) { 
       var form = document.createElement("form"); 
@@ -6,7 +6,8 @@
       form.setAttribute("action", "AddRequest"); 
       var field = document.createElement("input"); 
       field.setAttribute("type", "hidden"); 
-      field.setAttribute("name", "info"); 
+      field.setAttribute("name", "info");
+      //var c = document.getElementById('numberb').value;	  
       field.setAttribute("value", info); 
       form.style.display = "hidden"; 
       form.appendChild(field); 
@@ -20,6 +21,12 @@
    <link rel="stylesheet" type="text/css" href="css/PokemonListStyleSheet.css">
   </head>
   <body>
+  <!--
+  <div id="numberbox">
+  <text>Enter CP or number of candies</text>
+  <input type="text" value="0" id='numberb'></input>
+  </div>
+  -->
 <div id='main_menu'>
  <ul>
   <li><a href='/index'>Home</a></li>

@@ -110,7 +110,7 @@ function addUserTeams(username){
   * @param {String} username - The user who is removing a team.
   * @param {int} slot - The number(1-3) of the team the user is removing. Ex remove team1.
   */
-function removeUserTeams(username, slot){
+function removeUserTeams(username, slot,callback){
 		db.serialize(function(){
 			var sql =  "UPDATE user_teams";
 			    sql += " SET team" + slot + " = 'empty'";
@@ -118,6 +118,7 @@ function removeUserTeams(username, slot){
 			db.run(sql,[username], function(err){
 				console.log(err);
 			});	
+			callback(null,-1);
 			return;
 		});
 }
@@ -292,12 +293,14 @@ function removeFromTeam(username,team_name,slot){
   * @param {String} username - The current user
   * @param {String} team_name - The name of the team that is being removed.
   */
-function removeTeam(username,team_name){
+function removeTeam(username,team_name,callback){
 	var sql = "DELETE FROM teams WHERE username = ? AND team_name = ?";
 	db.run(sql,[username,team_name],function(err){
 		if(err){
 			console.log(err);
+			callback(null,-1);
 		}
+		callback(null,1);
 	});
 }
 

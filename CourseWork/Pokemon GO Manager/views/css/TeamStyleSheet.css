@@ -15,6 +15,10 @@
 	margin-right: 20px;
 }
 
+#main_menu a:hover{
+	color: skyblue;
+}
+
 #mts ul{
 	
 }
@@ -23,14 +27,25 @@
 	/*color: Blue;*/
 	color: gray;
 	font-size: 40px;
+	font-family: arial;
+}
+
+#evo-list{
+	font-family: arial;
 }
 
 #evo-list li{
-	display: block;
+	display: inline;
+	padding-bottom: 20px;
 }
 
 #evo-list text{
-	padding: 10px;
+	font-size: 24px;
+	font-family: arial;
+}
+
+#team-list{
+	font-family: arial;
 }
 
 #team-list li{
@@ -50,10 +65,12 @@
 
 #add-team-form{
 	text-align: center;
+	font-family: arial;
 }
 
 #alert{
 	text-align: center;
+	font-family: arial;
 	color: Red;
 }
 
@@ -63,12 +80,22 @@
 }
 
 #alert a{
-	font-size:30px;
-	color : blue;
-	text-shadow: 2px 2px 5px white;
-	text-decoration: underline;
-	padding: 30px;
-	/*Will add to later*/
+	font-size: 50px;
+	color : white;
+	text-shadow: 2px 2px 5px blue;
+	text-decoration: none;
+	padding: 10px;
+	margin-left: 30px;
+	margin-right: 30px;
+	background-color: plum;
+	border-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+#alert a:hover{
+	color: skyblue;
+	background-color: gray;
 }
 
 #alert img{
@@ -90,6 +117,7 @@ h1{
 	font-size: 48px;
 	color: dimgray;
 	background-color: Plum;
+	font-family: arial;
 }
 
 li{
