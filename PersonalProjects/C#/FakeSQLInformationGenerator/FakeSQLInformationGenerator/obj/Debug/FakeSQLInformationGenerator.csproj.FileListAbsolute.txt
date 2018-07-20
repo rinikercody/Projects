@@ -1,0 +1,11 @@
+C:\Users\rinik\Desktop\FakeSQLInformationGenerator\FakeSQLInformationGenerator\bin\Debug\Fake_Names.txt
+C:\Users\rinik\Desktop\FakeSQLInformationGenerator\FakeSQLInformationGenerator\bin\Debug\FakeSQLInformationGenerator.exe.config
+C:\Users\rinik\Desktop\FakeSQLInformationGenerator\FakeSQLInformationGenerator\bin\Debug\FakeSQLInformationGenerator.exe
+C:\Users\rinik\Desktop\FakeSQLInformationGenerator\FakeSQLInformationGenerator\bin\Debug\FakeSQLInformationGenerator.pdb
+C:\Users\rinik\Desktop\FakeSQLInformationGenerator\FakeSQLInformationGenerator\obj\Debug\FakeSQLInformationGenerator.csprojResolveAssemblyReference.cache
+C:\Users\rinik\Desktop\FakeSQLInformationGenerator\FakeSQLInformationGenerator\obj\Debug\FakeSQLInformationGenerator.Form1.resources
+C:\Users\rinik\Desktop\FakeSQLInformationGenerator\FakeSQLInformationGenerator\obj\Debug\FakeSQLInformationGenerator.Properties.Resources.resources
+C:\Users\rinik\Desktop\FakeSQLInformationGenerator\FakeSQLInformationGenerator\obj\Debug\FakeSQLInformationGenerator.csproj.GenerateResource.cache
+C:\Users\rinik\Desktop\FakeSQLInformationGenerator\FakeSQLInformationGenerator\obj\Debug\FakeSQLInformationGenerator.csproj.CoreCompileInputs.cache
+C:\Users\rinik\Desktop\FakeSQLInformationGenerator\FakeSQLInformationGenerator\obj\Debug\FakeSQLInformationGenerator.exe
+C:\Users\rinik\Desktop\FakeSQLInformationGenerator\FakeSQLInformationGenerator\obj\Debug\FakeSQLInformationGenerator.pdb
