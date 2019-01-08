@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mancala</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	    <script type='text/javascript' src='scripts.js'></script>
+	</head>
+	
+	<body>
+		<div id='container'>
+			<div id='user-display'>
+				<h1 id='score-label'>
+					<span id='player1-text'>Player 1: 0 </span>
+					<span>/</span>
+					<span id='player2-text'>Player 2: 0</span>
+				</h1> 
+				<h2 id='turn-label'>Player 1's turn</h2>
+			</div>
+			<div id='board'>
+				<div id='player1-pit' class='player-pit' onclick="pitClicked()"></div>
+				
+				<div id='cup1' class='cups' onclick="pickCup(1)"></div>
+				<div id='cup2' class='cups' onclick="pickCup(2)"></div>
+				<div id='cup3' class='cups' onclick="pickCup(3)"></div>
+				<div id='cup4' class='cups' onclick="pickCup(4)"></div>
+				<div id='cup5' class='cups' onclick="pickCup(5)"></div>
+				<div id='cup6' class='cups' onclick="pickCup(6)"></div>
+			
+				<!--These are reversed to make going counter clockwise easier --> 
+				<div id='cup13' class='cups' onclick="pickCup(13)"></div>
+				<div id='cup12' class='cups' onclick="pickCup(12)"></div>
+				<div id='cup11' class='cups' onclick="pickCup(11)"></div>
+				<div id='cup10' class='cups' onclick="pickCup(10)"></div>
+				<div id='cup9' class='cups' onclick="pickCup(9)"></div>
+				<div id='cup8' class='cups' onclick="pickCup(8)"></div>
+				
+				<div id='player2-pit' class='player-pit' onclick="pitClicked()"></div>
+			</div>
+			<br/>
+			<input type='button' onclick="startGame()" value="Reset"></input>
+			<h1 id='message'></h1>
+			<h2 id='reset-message'></h2>
+		</div>
+	</body>
+</html>

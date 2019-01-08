@@ -1,0 +1,14 @@
+body{
+	background-image: url(Space-Pic.jpg);
+	background-size: 100%;
+}
+/*muralswallpaper.co.uk*/
+#display-canvas{
+		border: 1px solid black;
+		background-color: black;
+}
+
+#container{
+	padding-top: 30px;
+	text-align: center;
+}
