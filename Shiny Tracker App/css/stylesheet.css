@@ -1,0 +1,48 @@
+.unique{
+	color: red;
+}
+
+#wrapper{
+	position: relative;
+	max-width: 960px;
+	margin: 0 auto;
+	background-color: blue;
+	height: 100%;
+}
+
+#container{
+	display: inline-block;
+}
+
+#codyPokemon{
+	position: absolute;
+	left: 10px;
+	width: 450px;
+	background-color: red;
+	text-align: center;
+	
+}
+
+#teresaPokemon{
+	position: absolute;
+	right: 10px;
+	width: 450px;
+	background-color: purple;
+	text-align: center;
+	float: left;
+}
+
+.pokemonBox{
+	/*position: absolute;*/
+	background-color: gray;
+	margin: 10px 10px 10px 10px;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	border-radius: 5px;
+	text-align: center;
+}
+.pokemonBox img{
+	width: 200px;
+	height: 200px;
+}
