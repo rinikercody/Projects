@@ -1,0 +1,14 @@
+body{
+    background-color: gray;
+}
+
+#wrapper{
+    margin: 0 auto;
+    padding: 0;
+    background-color: white;
+    text-align: center;
+}
+
+#main-canvas{
+    border: solid;
+}
